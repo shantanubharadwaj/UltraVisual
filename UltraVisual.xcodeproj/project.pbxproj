@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20271932131C91500732822 /* InspirationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20271922131C91500732822 /* InspirationCell.swift */; };
 		E2087DA62131B314007C4937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DA52131B314007C4937 /* AppDelegate.swift */; };
 		E2087DA82131B314007C4937 /* InspirationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DA72131B314007C4937 /* InspirationsViewController.swift */; };
 		E2087DAB2131B314007C4937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2087DA92131B314007C4937 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5E432ED894731DCD03E276FE /* Pods-UltraVisual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltraVisual.release.xcconfig"; path = "Pods/Target Support Files/Pods-UltraVisual/Pods-UltraVisual.release.xcconfig"; sourceTree = "<group>"; };
 		DA4FBCDDAFFA2C20C49A030C /* Pods_UltraVisual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UltraVisual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20271922131C91500732822 /* InspirationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationCell.swift; sourceTree = "<group>"; };
 		E2087DA22131B314007C4937 /* UltraVisual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraVisual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2087DA52131B314007C4937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2087DA72131B314007C4937 /* InspirationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationsViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E20271912131C8F600732822 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E20271922131C91500732822 /* InspirationCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E2087D992131B314007C4937 = {
 			isa = PBXGroup;
 			children = (
@@ -92,14 +102,15 @@
 		E2087DA42131B314007C4937 /* UltraVisual */ = {
 			isa = PBXGroup;
 			children = (
-				E2087DC42131B7A3007C4937 /* Models */,
-				E2087DC32131B79D007C4937 /* Layouts */,
-				E2087DC22131B796007C4937 /* Extensions */,
 				E2087DB82131B3B0007C4937 /* Assets */,
 				E2087DBA2131B3CA007C4937 /* Controllers */,
+				E2087DC22131B796007C4937 /* Extensions */,
+				E2087DC32131B79D007C4937 /* Layouts */,
+				E2087DC42131B7A3007C4937 /* Models */,
 				E2087DB92131B3B7007C4937 /* Others */,
 				E2087DB72131B393007C4937 /* Storyboards & Xibs */,
 				E2087DBB2131B3D2007C4937 /* Supporting Files */,
+				E20271912131C8F600732822 /* Views */,
 			);
 			path = UltraVisual;
 			sourceTree = "<group>";
@@ -287,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20271932131C91500732822 /* InspirationCell.swift in Sources */,
 				E2087DCE2131BBA6007C4937 /* Session.swift in Sources */,
 				E2087DCC2131BB8D007C4937 /* Inspiration.swift in Sources */,
 				E2087DA82131B314007C4937 /* InspirationsViewController.swift in Sources */,

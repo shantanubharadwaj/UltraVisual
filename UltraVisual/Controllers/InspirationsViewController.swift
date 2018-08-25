@@ -12,7 +12,6 @@ import ChameleonFramework
 class InspirationsViewController: UICollectionViewController {
     
     let inspirations = Inspiration.allInspirations()
-    let colors = UIColor.palette()
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return .lightContent
@@ -23,8 +22,9 @@ class InspirationsViewController: UICollectionViewController {
         if let patternImage = UIImage(named: "Pattern") {
             view.backgroundColor = UIColor(patternImage: patternImage)
         }
-        let layout = collectionViewLayout as! UICollectionViewFlowLayout
-        layout.itemSize = CGSize(width: collectionView!.bounds.width, height: 100)
+        collectionView?.decelerationRate = UIScrollViewDecelerationRateFast
+//        let layout = collectionViewLayout as! UICollectionViewFlowLayout
+//        layout.itemSize = CGSize(width: collectionView!.bounds.width, height: 100)
     }
 }
 
@@ -38,9 +38,18 @@ extension InspirationsViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "InspirationCell", for: indexPath)
-        cell.contentView.backgroundColor = UIColor.randomFlat
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "InspirationCell", for: indexPath) as! InspirationCell
+        cell.inspiration = inspirations[indexPath.item]
+//        cell.contentView.backgroundColor = UIColor.randomFlat
         return cell
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let layout = collectionViewLayout as! UltravisualLayout
+        let offset = layout.dragOffset * CGFloat(indexPath.item)
+        if collectionView.contentOffset.y != offset {
+            collectionView.setContentOffset(CGPoint(x: 0, y: offset), animated: true)
+        }
     }
 }
 
