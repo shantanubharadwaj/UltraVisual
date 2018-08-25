@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		E2087DA62131B314007C4937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DA52131B314007C4937 /* AppDelegate.swift */; };
-		E2087DA82131B314007C4937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DA72131B314007C4937 /* ViewController.swift */; };
+		E2087DA82131B314007C4937 /* InspirationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DA72131B314007C4937 /* InspirationsViewController.swift */; };
 		E2087DAB2131B314007C4937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2087DA92131B314007C4937 /* Main.storyboard */; };
-		E2087DAD2131B315007C4937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2087DAC2131B315007C4937 /* Assets.xcassets */; };
 		E2087DB02131B315007C4937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2087DAE2131B315007C4937 /* LaunchScreen.storyboard */; };
+		E2087DBF2131B4AD007C4937 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2087DBC2131B4AD007C4937 /* Images.xcassets */; };
+		E2087DC02131B4AD007C4937 /* Inspirations.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2087DBD2131B4AD007C4937 /* Inspirations.xcassets */; };
+		E2087DC12131B4AD007C4937 /* Inspirations.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2087DBE2131B4AD007C4937 /* Inspirations.plist */; };
+		E2087DC62131B7C9007C4937 /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DC52131B7C9007C4937 /* UIColor+Palette.swift */; };
+		E2087DC82131B873007C4937 /* UIImage+Decompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DC72131B873007C4937 /* UIImage+Decompression.swift */; };
+		E2087DCA2131B925007C4937 /* UltravisualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DC92131B925007C4937 /* UltravisualLayout.swift */; };
+		E2087DCC2131BB8D007C4937 /* Inspiration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DCB2131BB8D007C4937 /* Inspiration.swift */; };
+		E2087DCE2131BBA6007C4937 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2087DCD2131BBA6007C4937 /* Session.swift */; };
+		F6E4B08591491010D897DBD8 /* Pods_UltraVisual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4FBCDDAFFA2C20C49A030C /* Pods_UltraVisual.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E432ED894731DCD03E276FE /* Pods-UltraVisual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltraVisual.release.xcconfig"; path = "Pods/Target Support Files/Pods-UltraVisual/Pods-UltraVisual.release.xcconfig"; sourceTree = "<group>"; };
+		DA4FBCDDAFFA2C20C49A030C /* Pods_UltraVisual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UltraVisual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2087DA22131B314007C4937 /* UltraVisual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraVisual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2087DA52131B314007C4937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2087DA72131B314007C4937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2087DA72131B314007C4937 /* InspirationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationsViewController.swift; sourceTree = "<group>"; };
 		E2087DAA2131B314007C4937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E2087DAC2131B315007C4937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2087DAF2131B315007C4937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2087DB12131B315007C4937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2087DBC2131B4AD007C4937 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2087DBD2131B4AD007C4937 /* Inspirations.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Inspirations.xcassets; sourceTree = "<group>"; };
+		E2087DBE2131B4AD007C4937 /* Inspirations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Inspirations.plist; sourceTree = "<group>"; };
+		E2087DC52131B7C9007C4937 /* UIColor+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		E2087DC72131B873007C4937 /* UIImage+Decompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Decompression.swift"; sourceTree = "<group>"; };
+		E2087DC92131B925007C4937 /* UltravisualLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltravisualLayout.swift; sourceTree = "<group>"; };
+		E2087DCB2131BB8D007C4937 /* Inspiration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspiration.swift; sourceTree = "<group>"; };
+		E2087DCD2131BBA6007C4937 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		F6CA5FC5B53F6A7D1DCB6D9B /* Pods-UltraVisual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltraVisual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UltraVisual/Pods-UltraVisual.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E4B08591491010D897DBD8 /* Pods_UltraVisual.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E4541DBD7EB00F58C8D9AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA4FBCDDAFFA2C20C49A030C /* Pods_UltraVisual.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B204CCAB1270BEBF329E654E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6CA5FC5B53F6A7D1DCB6D9B /* Pods-UltraVisual.debug.xcconfig */,
+				5E432ED894731DCD03E276FE /* Pods-UltraVisual.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2087D992131B314007C4937 = {
 			isa = PBXGroup;
 			children = (
 				E2087DA42131B314007C4937 /* UltraVisual */,
 				E2087DA32131B314007C4937 /* Products */,
+				B204CCAB1270BEBF329E654E /* Pods */,
+				8E4541DBD7EB00F58C8D9AFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,85 @@
 		E2087DA42131B314007C4937 /* UltraVisual */ = {
 			isa = PBXGroup;
 			children = (
-				E2087DA52131B314007C4937 /* AppDelegate.swift */,
-				E2087DA72131B314007C4937 /* ViewController.swift */,
-				E2087DA92131B314007C4937 /* Main.storyboard */,
-				E2087DAC2131B315007C4937 /* Assets.xcassets */,
-				E2087DAE2131B315007C4937 /* LaunchScreen.storyboard */,
-				E2087DB12131B315007C4937 /* Info.plist */,
+				E2087DC42131B7A3007C4937 /* Models */,
+				E2087DC32131B79D007C4937 /* Layouts */,
+				E2087DC22131B796007C4937 /* Extensions */,
+				E2087DB82131B3B0007C4937 /* Assets */,
+				E2087DBA2131B3CA007C4937 /* Controllers */,
+				E2087DB92131B3B7007C4937 /* Others */,
+				E2087DB72131B393007C4937 /* Storyboards & Xibs */,
+				E2087DBB2131B3D2007C4937 /* Supporting Files */,
 			);
 			path = UltraVisual;
+			sourceTree = "<group>";
+		};
+		E2087DB72131B393007C4937 /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DA92131B314007C4937 /* Main.storyboard */,
+				E2087DAE2131B315007C4937 /* LaunchScreen.storyboard */,
+			);
+			path = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		E2087DB82131B3B0007C4937 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DBC2131B4AD007C4937 /* Images.xcassets */,
+				E2087DBE2131B4AD007C4937 /* Inspirations.plist */,
+				E2087DBD2131B4AD007C4937 /* Inspirations.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E2087DB92131B3B7007C4937 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DA52131B314007C4937 /* AppDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E2087DBA2131B3CA007C4937 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DA72131B314007C4937 /* InspirationsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E2087DBB2131B3D2007C4937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DB12131B315007C4937 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2087DC22131B796007C4937 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DC52131B7C9007C4937 /* UIColor+Palette.swift */,
+				E2087DC72131B873007C4937 /* UIImage+Decompression.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2087DC32131B79D007C4937 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DC92131B925007C4937 /* UltravisualLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		E2087DC42131B7A3007C4937 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2087DCB2131BB8D007C4937 /* Inspiration.swift */,
+				E2087DCD2131BBA6007C4937 /* Session.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2087DB42131B315007C4937 /* Build configuration list for PBXNativeTarget "UltraVisual" */;
 			buildPhases = (
+				B811592773BA03FCC203EF9D /* [CP] Check Pods Manifest.lock */,
 				E2087D9E2131B314007C4937 /* Sources */,
 				E2087D9F2131B314007C4937 /* Frameworks */,
 				E2087DA02131B314007C4937 /* Resources */,
+				D01C0115595964CA57DAC0DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +234,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2087DB02131B315007C4937 /* LaunchScreen.storyboard in Resources */,
-				E2087DAD2131B315007C4937 /* Assets.xcassets in Resources */,
+				E2087DBF2131B4AD007C4937 /* Images.xcassets in Resources */,
+				E2087DC02131B4AD007C4937 /* Inspirations.xcassets in Resources */,
 				E2087DAB2131B314007C4937 /* Main.storyboard in Resources */,
+				E2087DC12131B4AD007C4937 /* Inspirations.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B811592773BA03FCC203EF9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UltraVisual-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01C0115595964CA57DAC0DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UltraVisual/Pods-UltraVisual-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UltraVisual/Pods-UltraVisual-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2087D9E2131B314007C4937 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2087DA82131B314007C4937 /* ViewController.swift in Sources */,
+				E2087DCE2131BBA6007C4937 /* Session.swift in Sources */,
+				E2087DCC2131BB8D007C4937 /* Inspiration.swift in Sources */,
+				E2087DA82131B314007C4937 /* InspirationsViewController.swift in Sources */,
+				E2087DC82131B873007C4937 /* UIImage+Decompression.swift in Sources */,
+				E2087DC62131B7C9007C4937 /* UIColor+Palette.swift in Sources */,
 				E2087DA62131B314007C4937 /* AppDelegate.swift in Sources */,
+				E2087DCA2131B925007C4937 /* UltravisualLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +435,12 @@
 		};
 		E2087DB52131B315007C4937 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CA5FC5B53F6A7D1DCB6D9B /* Pods-UltraVisual.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2R452CN2;
-				INFOPLIST_FILE = UltraVisual/Info.plist;
+				INFOPLIST_FILE = "UltraVisual/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,17 +448,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdbLabs.cs.UltraVisual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E2087DB62131B315007C4937 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E432ED894731DCD03E276FE /* Pods-UltraVisual.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2R452CN2;
-				INFOPLIST_FILE = UltraVisual/Info.plist;
+				INFOPLIST_FILE = "UltraVisual/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdbLabs.cs.UltraVisual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
